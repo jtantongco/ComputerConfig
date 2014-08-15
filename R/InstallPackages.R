@@ -20,6 +20,8 @@ install.packages('data.table')
 install.packages('kernlab')
 install.packages('boot')
 
+install.packages('MASS')
+
 source("http://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("GenomicFeatures", "AnnotationDbi"))

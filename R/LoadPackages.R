@@ -22,6 +22,8 @@ library(RMySQL)
 library(kernlab)
 library(boot)
 
+library(MASS)
+
 source("http://bioconductor.org/biocLite.R")
 library(GenomicFeatures)
 library(AnnotationDbi)
