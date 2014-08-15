@@ -22,6 +22,12 @@ install.packages('boot')
 
 install.packages('MASS')
 
+# knitr -> comes with RStudio
+# RMarkdown has other dependencies such as yaml in RStudio
+# Just click through on menus in RStudio
+install.packages('knitr')
+
+
 source("http://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("GenomicFeatures", "AnnotationDbi"))

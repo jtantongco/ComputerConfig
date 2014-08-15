@@ -24,6 +24,8 @@ library(boot)
 
 library(MASS)
 
+library(knitr)
+
 source("http://bioconductor.org/biocLite.R")
 library(GenomicFeatures)
 library(AnnotationDbi)
