@@ -1,0 +1,10 @@
+Notes on getting publishing to rpubs to work:
+
+Alter the Rprofile file to add the following line:
+options(rpubs.upload.method = "internal")
+
+File is located in R folder in program files->R->library->base\R
+C:\Program Files\R\R-3.1.1\library\base\R
+
+Link:
+http://stackoverflow.com/questions/22537180/error-while-publishing-in-r-pubs

@@ -26,7 +26,7 @@ install.packages('MASS')
 # RMarkdown has other dependencies such as yaml in RStudio
 # Just click through on menus in RStudio
 install.packages('knitr')
-
+install.packages('xtable')
 
 source("http://bioconductor.org/biocLite.R")
 biocLite()

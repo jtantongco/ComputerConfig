@@ -25,6 +25,7 @@ library(boot)
 library(MASS)
 
 library(knitr)
+library(xtable)
 
 source("http://bioconductor.org/biocLite.R")
 library(GenomicFeatures)
