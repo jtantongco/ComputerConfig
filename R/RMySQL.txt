@@ -1,0 +1,31 @@
+0. Make sure Rtools is installed
+
+1. Install MySQL 
+	http://dev.mysql.com/downloads/mysql/5.5.html#downloads
+
+2. Go to the lib folder in the current version of MySQL Server
+	C:\Program Files\MySQL\MySQL Server 5.5\lib
+
+3. Copy libmysql.dll
+
+4. Paste libmysql.dll to the bin folder of MySQL Server
+	C:\Program Files\MySQL\MySQL Server 5.5\bin
+
+5. Edit windows system environment variable
+	Variable: 	MYSQL_HOME
+	Value: 		C:\Program Files\MySQL\MySQL Server 5.5
+
+6. Create an Renviron.site file somwhere (Desktop) in the following folder:
+
+7. Add the following line to the file:
+	MYSQL_HOME=C:/Program Files/MySQL/MySQL Server 5.5
+
+8. Move the Renviron.site file to the following folder:
+	C:\Program Files\R\R-3.1.1\etc
+
+9. Go to R and install RMySQL package using the following line:
+	install.packages("RMySQL", type = "source")
+
+Threads to look at: 
+https://class.coursera.org/getdata-005/forum/thread?thread_id=146
+http://biostat.mc.vanderbilt.edu/wiki/Main/RMySQL

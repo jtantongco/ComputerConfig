@@ -15,7 +15,8 @@ install.packages('httr')
 install.packages('data.table')
 
 # Requires different installation
-# install.packages('RMySQL')
+# see more invovled instructions in text file
+# install.packages("RMySQL", type="source")
 
 install.packages('kernlab')
 install.packages('boot')
