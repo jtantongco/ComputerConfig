@@ -27,6 +27,13 @@ library(MASS)
 library(knitr)
 library(xtable)
 
+library(lattice)
+library(nlme)
+
+library(Hmisc)
+library(reshape2)
+library(plyr)
+
 source("http://bioconductor.org/biocLite.R")
 library(GenomicFeatures)
 library(AnnotationDbi)

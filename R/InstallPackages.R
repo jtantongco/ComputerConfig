@@ -29,6 +29,13 @@ install.packages('MASS')
 install.packages('knitr')
 install.packages('xtable')
 
+install.packages('lattice')
+install.packages('nlme')
+
+install.packages('Hmisc')
+install.packages('reshape2')
+install.packages('plyr')
+
 source("http://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("GenomicFeatures", "AnnotationDbi"))
