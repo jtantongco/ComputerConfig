@@ -36,6 +36,8 @@ install.packages('Hmisc')
 install.packages('reshape2')
 install.packages('plyr')
 
+install.packages('jpeg')
+
 source("http://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("GenomicFeatures", "AnnotationDbi"))

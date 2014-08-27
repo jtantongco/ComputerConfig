@@ -34,6 +34,8 @@ library(Hmisc)
 library(reshape2)
 library(plyr)
 
+library(jpeg)
+
 source("http://bioconductor.org/biocLite.R")
 library(GenomicFeatures)
 library(AnnotationDbi)
