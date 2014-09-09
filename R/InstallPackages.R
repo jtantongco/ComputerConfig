@@ -37,6 +37,11 @@ install.packages('reshape2')
 install.packages('plyr')
 
 install.packages('jpeg')
+install.packages('quantmod')
+
+install.packages('shiny')
+
+devtools::install_github('rstudio/shinyapps')
 
 source("http://bioconductor.org/biocLite.R")
 biocLite()

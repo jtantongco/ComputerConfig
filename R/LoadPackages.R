@@ -35,6 +35,12 @@ library(reshape2)
 library(plyr)
 
 library(jpeg)
+library(quantmod)
+
+library(shiny)
+library(shinyapps)
+# On first run, make sure you get the secret from the following site:
+# https://www.shinyapps.io/dashboard
 
 source("http://bioconductor.org/biocLite.R")
 library(GenomicFeatures)
